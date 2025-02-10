@@ -50,7 +50,7 @@ function handleYesClick() {
     window.location.href = "yes_page.html";
 }
 
-// Function to load and play the selected MP3 file
+// Function to load and play the selected MP3 file in the background
 function loadAndPlayAudio(event) {
     const audioPlayer = document.getElementById('audioPlayer');
     const file = event.target.files[0];
